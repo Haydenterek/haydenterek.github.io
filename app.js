@@ -1,5 +1,5 @@
 window.onload = function(event) {
-    fetch('https://api.nhle.com/stats/rest/en/team')
+    fetch('https://api.nhle.com/v1/schedule/2023-09-23')
         .then(response => {
             if(!response.ok) {
                 throw new Error('Could not connect to API');
