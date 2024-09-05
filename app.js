@@ -1,3 +1,4 @@
+/*
 window.onload = function(event) {
     fetch('https://api.nhle.com/stats/rest/en/team', {
         mode: 'no-cors'
@@ -31,3 +32,10 @@ window.onclick = function(event) {
         }
     }
 }
+*/
+
+const url = 'https://jsonplaceholder.typicode.com/todos/1';
+
+    fetch(url)
+        .then(response => response.json())
+        .then(jsonData => console.log(jsonData))
