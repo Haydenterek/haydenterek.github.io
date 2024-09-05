@@ -1,10 +1,6 @@
 window.onload = function(event) {
     fetch('https://api.nhle.com/stats/rest/en/team', {
-        mode: 'cors',
-        method: 'GET',
-        headers: {
-            'Content-Type': 'application/json'
-        }
+        mode: 'no-cors'
     })
         .then(response => {
             if(!response.ok) {
