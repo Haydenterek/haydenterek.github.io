@@ -34,7 +34,7 @@ window.onclick = function(event) {
 }
 */
 
-const url = 'https://jsonplaceholder.typicode.com/todos/1';
+const url = 'https://api.nhle.com/stats/rest/en/team';
 
     fetch(url)
         .then(response => response.json())
